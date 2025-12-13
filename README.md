@@ -1,6 +1,6 @@
-# 🐧 Five Bash Programs – FreeCodeCamp
+# 🐧 Bash Programs – FreeCodeCamp
 
-This repository contains **five Bash scripts** created as part of the **FreeCodeCamp Bash / Linux curriculum**.  
+This repository contains **Bash scripts** created as part of the **FreeCodeCamp Bash / Linux curriculum**.  
 Each script focuses on practicing core **shell scripting concepts** such as variables, conditionals, loops, functions, arrays, random numbers, and user input.
 
 This project is intended for **learning purposes**, helping to understand how Bash scripts work in real Linux environments.
@@ -64,6 +64,16 @@ A master script that runs the other four programs in sequence.
 - Program orchestration
 
 ---
+
+### 📝 castle.sh
+A beginner Bash script built entirely using the **Nano text editor**, emphasizing hands-on learning of terminal editing workflows.
+
+**Concepts learned:**
+- Creating and modifying files with Nano
+- Navigating and editing text in a terminal editor
+- Saving, exiting, and reopening files
+- Handling stopped processes (`Ctrl + Z`, `fg`)
+- Executing scripts using `bash`
 
 ## 🛠️ Technologies & Tools
 
