@@ -1,138 +1,61 @@
-# 🐧 Bash Programs – FreeCodeCamp
+# Bash Programs – FreeCodeCamp
 
-This repository contains **Bash scripts** created as part of the **FreeCodeCamp Bash / Linux curriculum**.  
-Each script focuses on practicing core **shell scripting concepts** such as variables, conditionals, loops, functions, arrays, random numbers, and user input.
+Bash scripts created as part of the freeCodeCamp Bash/Linux curriculum. Each script
+practices core shell scripting concepts — variables, conditionals, loops, functions,
+arrays, random numbers, and user input — in a real Linux environment.
 
-This project is intended for **learning purposes**, helping to understand how Bash scripts work in real Linux environments.
+## Scripts Included
 
----
+### `questionnaire.sh`
+Asks the user a series of questions and prints a personalized message.
+**Concepts**: variables, `read` for user input, `echo` formatting.
 
-## 📂 Scripts Included
-
-### 1️⃣ questionnaire.sh
-An interactive script that asks the user a series of questions and then prints a personalized message.
-
-**Concepts used:**
-- Variables
-- `read` for user input
-- `echo` formatting
-
----
-
-### 2️⃣ countdown.sh
+### `countdown.sh`
 Counts down to zero from a positive integer passed as a command-line argument.
+**Concepts**: positional parameters (`$1`), `if`, `while`, arithmetic, `sleep`.
 
-**Concepts used:**
-- Positional parameters (`$1`)
-- `if` conditional
-- `while` loop
-- Arithmetic operations
-- `sleep`
-
----
-
-### 3️⃣ bingo.sh
+### `bingo.sh`
 Generates a random Bingo number (1–75) and assigns the correct letter (B, I, N, G, O).
+**Concepts**: `$RANDOM`, arithmetic evaluation `(( ))`, `if`/`elif`.
 
-**Concepts used:**
-- Random numbers (`$RANDOM`)
-- Arithmetic evaluation `(( ))`
-- Conditional logic (`if`, `elif`)
-- Variables and formatted output
+### `fortune.sh`
+A fortune teller that answers a yes/no question, validating it ends with a question mark.
+**Concepts**: arrays, functions, regular expressions, input validation, `until` loop.
 
----
+### `five.sh`
+Runs the other four scripts in sequence.
+**Concepts**: script execution, basic automation, orchestration.
 
-### 4️⃣ fortune.sh
-A fortune teller script that asks the user a yes/no question and returns a random response, validating that the question ends with a question mark.
+### `castle.sh`
+A beginner script built entirely with the Nano text editor.
+**Concepts**: creating/editing files in Nano, saving/exiting, handling stopped processes (`Ctrl+Z`, `fg`).
 
-**Concepts used:**
-- Arrays
-- Functions
-- Regular expressions
-- Input validation
-- `until` loop
-- Random index selection
+## Tech Stack
 
----
+- Bash / shell scripting
+- Linux terminal, GNU utilities
 
-### 5️⃣ five.sh
-A master script that runs the other four programs in sequence.
+## How to Run
 
-**Concepts used:**
-- Script execution
-- Basic automation
-- Program orchestration
-
----
-
-### 📝 castle.sh
-A beginner Bash script built entirely using the **Nano text editor**, emphasizing hands-on learning of terminal editing workflows.
-
-**Concepts learned:**
-- Creating and modifying files with Nano
-- Navigating and editing text in a terminal editor
-- Saving, exiting, and reopening files
-- Handling stopped processes (`Ctrl + Z`, `fg`)
-- Executing scripts using `bash`
-
-## 🛠️ Technologies & Tools
-
-- **Bash / Shell scripting**
-- **Linux terminal**
-- **GNU utilities**
-- **FreeCodeCamp**
-
----
-
-## 🚀 How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/five-bash-programs-fcc.git
-Give execution permissions:
-
-bash
-Copiar código
+```bash
+git clone https://github.com/aleoviedo071298/fcc-bash-learning.git
 chmod +x *.sh
-Run individual scripts:
 
-bash
-Copiar código
 ./questionnaire.sh
 ./countdown.sh 5
 ./bingo.sh
 ./fortune.sh
-Or run all programs at once:
 
-bash
-Copiar código
+# or run all at once
 ./five.sh
-🎯 Learning Objectives
-Through these programs, I practiced:
+```
 
-Bash scripting fundamentals
+## Learning Objectives
 
-User input handling
+Bash scripting fundamentals, user input handling, conditionals and loops, functions
+and arrays, random number generation, script execution and automation.
 
-Conditionals and loops
+## Author
 
-Functions and arrays
-
-Random number generation
-
-Script execution and automation
-
-📘 Context
-This repository is part of my FreeCodeCamp learning journey, focused on:
-
-Linux fundamentals
-
-Bash scripting
-
-Understanding how command-line programs work internally
-
-👤 Author
-Alejandro Oviedo
-📍 Argentina
-🎓 FreeCodeCamp, TECLAB, UNER Student
-🔐 Web Development and Cybersecurity Learner
+**Alejandro Oviedo**
+Argentina — freeCodeCamp / Teclab / UNER student
